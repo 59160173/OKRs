@@ -6,7 +6,7 @@
         Dashboard
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-home"></i>Manage Okrs</a></li>
+        <li><a href="#"><i class="fa fa-home"></i> Dashboard</a></li>
         <!--<li class="active">Dashboard</li>-->
       </ol>
     </section>

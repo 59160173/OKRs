@@ -34,8 +34,8 @@
       <ul class="sidebar-menu tree" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
         <li>
-          <a href="<?php echo base_url();?>index.php/Home">
-            <i class="fa fa-home"></i> <span>Manage Okrs</span>
+          <a href="<?php echo base_url();?>">
+            <i class="fa fa-home"></i> <span>Home</span>
           </a>
         </li>
         <li>
@@ -48,7 +48,6 @@
                 <i class="fa fa-user"></i> <span>Profile</span>
             </a>
         </li>
-
           
           
       </ul>
