@@ -30,13 +30,13 @@
                       </div></div><div class="col-sm-6"><div id="example1_filter" class="dataTables_filter"></div></div></div><div class="row"><div class="col-sm-12"><table id="example1" class="table table-bordered table-striped dataTable" role="grid" aria-describedby="example1_info">
                       <thead>
                     <tr role="row">
-                        <th class="sorting_asc" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column descending" style="width: 201px;" ><center>ลำดับ</th>
-                        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" style="width: 246px;"><center>Object</th>
-                        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending" style="width: 219px;"><center>สถานะการบันทึกผล</th>
-                        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Engine version: activate to sort column ascending" style="width: 172px;"><center>ผลการประเมิน</th>
-                        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 126px;"><center>บันทึกผล</th>
-                        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 126px;"><center>ประเมินผล</th>
-                        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 126px;"><center>รายละเอียด</th>
+                        <th class="sorting_asc" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column descending" style="width: 201px;" >ลำดับ</th>
+                        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" style="width: 246px;">Object</th>
+                        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Platform(s): activate to sort column ascending" style="width: 219px;">สถานะการบันทึกผล</th>
+                        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="Engine version: activate to sort column ascending" style="width: 172px;">ผลการประเมิน</th>
+                        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 126px;">บันทึกผล</th>
+                        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 126px;">ประเมินผล</th>
+                        <th class="sorting" tabindex="0" aria-controls="example1" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 126px;">รายละเอียด</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -46,17 +46,17 @@
                       <td>Firefox 1.0</td>
                       <td>Win 98+ / OSX.2+</td>
                       <td>1.7</td>
-                      <td><center>
+                      <td>
                         <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal-save">
                         <i class="fa fa-save"></i>
                         </button>
                       </td>
-                      <td><center>
+                      <td>
                         <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal-evalution">
                         <i class="fa fa-edit"></i>
                         </button>
                       </td>
-                      <td><center>
+                      <td>
                         <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal-exclamation">
                         <i class="fa fa-exclamation-circle"></i>
                         </button>
@@ -79,73 +79,8 @@
                   <span aria-hidden="true">×</span></button>
                 <h4 class="modal-title"> <i class="fa fa-save"> </i>  บันทึกผล</h4>
               </div>
-                 <div class="modal-body">
-                <div class="box box-info">
-            <div class="box-header with-border">
-              <h3 class="box-title">บันทึกผล OKRs</h3>
-            </div>
-            <!-- /.box-header -->
-            <!-- form start -->
-            <form class="form-horizontal">
-              <div class="box-body">
-                <div class="form-group">
-                  <label for="inputEmail3" class="col-sm-2 control-label">Objective</label>
-
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" placeholder="Enter ..." disabled="">
-                
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2 control-label"> Key result </label>
-
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" placeholder="Enter ..." disabled="">
-                  
-                  </div>
-                </div>
-                  <div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2 control-label">เป้าหมาย</label>
-
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" placeholder="Enter ..." disabled="">
-                  </div>
-                </div>
-                  <div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2 control-label">การดำเนินงาน</label>
-
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" placeholder="Enter ..." disabled="">
-                       </div>
-                     
-                       <div class="form-group">
-                  <div class="col-sm-offset-3 col-sm-7">
-                    <div class="checkbox">
-                      <label>
-                        <input type="checkbox"> Remember me
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                      
-                </div>
-                  <div class="form-group">
-                  <label for="inputPassword3" class="col-sm-2 control-label">ผลการประเมิน</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" placeholder="Enter ...">
-                  </div>
-                  
-                  <div class="col-sm-offset-2 col-sm-10">
-                    <div class="checkbox">
-                </div>
-                  </div>
-                </div>
-                
-              </div>
-             
-            </form>
-          </div>
-            
+              <div class="modal-body">
+                <p>One fine body…</p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
@@ -221,7 +156,7 @@
              
             </form>
           </div>
-            
+                 
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>

@@ -5,6 +5,6 @@ class Home extends MY_Controller {
 
 	public function index()
 	{
-		$this->output('home_view');
+		$this->output('v_manage_okrs');
 	}
 }
