@@ -1,10 +1,10 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home extends MY_Controller {
+class Report extends MY_Controller {
 
 	public function index()
 	{
-		$this->output('v_manage_okrs');
+		$this->output('report_view');
 	}
 }

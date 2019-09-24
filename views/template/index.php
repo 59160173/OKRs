@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<title>OKRs System</title>
 <head>
     <!-- my script and syles goes here -->
     <meta charset="utf-8">

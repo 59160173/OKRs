@@ -35,17 +35,27 @@
         <li class="header">MAIN NAVIGATION</li>
         <li>
           <a href="<?php echo base_url();?>">
-            <i class="fa fa-home"></i> <span>Home</span>
+            <i class="glyphicon glyphicon-cog"></i> <span>จัดการ Okrs</span>
           </a>
         </li>
         <li>
             <a href="<?php echo base_url();?>index.php/Dashboard">
-                <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                <i class="fa fa-sticky-note"></i> <span>Dashboard</span>
             </a>
         </li>
         <li>
-            <a href="<?php echo base_url();?>index.php/Profile">
-                <i class="fa fa-user"></i> <span>Profile</span>
+            <a href="<?php echo base_url();?>index.php/Report">
+                <i class="fa fa-user"></i> <span>Report</span>
+            </a>
+        </li>
+        <li>
+            <a href="<?php echo base_url();?>index.php/Listobj">
+              <i class="glyphicon glyphicon-list-alt"></i><span>Objective</span>
+            </a>
+        </li>
+        <li>
+            <a href="<?php echo base_url();?>index.php/Listkr">
+              <i class="fa fa-file-text"></i><span>Key results</span>
             </a>
         </li>
           
